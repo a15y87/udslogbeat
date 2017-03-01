@@ -1,0 +1,9 @@
+################### Udslogbeat Configuration Example #########################
+
+############################# Udslogbeat ######################################
+
+udslogbeat:
+  # Defines how often an event is sent to the output
+  period: 10s
+  socketpath: "/tmp/udslogbeat.sock"
+  maxmessagesize: 8192
